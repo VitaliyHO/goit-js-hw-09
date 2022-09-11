@@ -9,7 +9,7 @@ let step = '';
 let amount = '';
 
 
-form.addEventListener('input', onFormInput)
+form.addEventListener('input', onFormInput);
 
 function onFormInput(event) {
   if(event.target.name === 'delay'){
